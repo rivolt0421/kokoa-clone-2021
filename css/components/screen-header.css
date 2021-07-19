@@ -1,0 +1,61 @@
+@keyframes cog-rotating {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(180deg);
+  }
+}
+.screen-header {
+  margin: 30px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.screen-header h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.screen-header__icons {
+  display: flex;
+  align-items: center;
+}
+.screen-header__icons li {
+  font-size: 22px;
+  margin-left: 25px;
+  position: relative;
+}
+.screen-header .fa-cog:hover {
+  animation: cog-rotating 0.7s linear infinite;
+}
+
+.screen-header--alt {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  display: flex;
+  position: fixed;
+  top: 25px;
+  background-clip: border-box;
+  background-color: #abc1d1;
+}
+.screen-header--alt__column {
+  width: 33.3%;
+}
+.screen-header--alt__column:nth-child(2) {
+  text-align: center;
+}
+.screen-header--alt__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+.screen-header--alt__column:last-child i {
+  margin-left: 20px;
+}
+.screen-header--alt h1,
+.screen-header--alt i {
+  font-size: 24px;
+}
+.screen-header--alt h1 {
+  font-weight: 600;
+}

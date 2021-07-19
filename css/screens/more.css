@@ -1,0 +1,11 @@
+.more__profile-name {
+  font-size: 26px;
+}
+.icons-box--more {
+  margin-top: 15px;
+}
+
+.suggestion {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding-top: 15px;
+}

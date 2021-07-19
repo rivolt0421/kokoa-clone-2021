@@ -4,7 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <title>Greetings from KoKoa Talk!</title>
   </head>
-  <body></body>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>01:48</span>
+      </div>
+      <div class="status-bar__column">
+        <span>42%</span>
+        <i class="fas fa-battery-half"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <div class="page">
+      <header class="welcome-header">
+        <h1>Welcome to Kokoa Clone</h1>
+        <p>
+          Even if you have a Kokoa account,</br>logging in withthis form will be
+          impossible.
+        </p>
+      </header>
+
+      <form action="friends.html" method="get" class="log-in">
+        <input class="log-in__text" type="text" placeholder="Email or phone number" />
+        <input class="log-in__text" type="password" placeholder="Password" />
+        <input class="log-in__btn" type="submit" value="Log In" />
+        <a href="#">Find Kokoa Account or Password</a>
+      </form>
+    </div><div id="no-mobile">
+      <span>Your screen is tooooo big 😭</span>
+    </div>
+    <script> </script>
+  </body>
 </html>

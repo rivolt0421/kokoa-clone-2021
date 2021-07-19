@@ -1,0 +1,14 @@
+.setting__list li {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.setting__list i {
+  opacity: 0.8;
+  margin-right: 15px;
+}
+.setting__column:last-child {
+  opacity: 0.3;
+}
